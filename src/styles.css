@@ -1,0 +1,13 @@
+/* ...Tailwind v4 import va shadcn tokenlari... */
+
+:root{--brand-blue:oklch(0.32 0.12 260);--brand-gold:oklch(0.8 0.15 85);}
+.bg-brand{background:radial-gradient(circle at 20% 0%,oklch(0.42 0.15 260),oklch(0.18 0.08 262) 70%);}
+.text-gold{background:linear-gradient(180deg,oklch(0.93 0.12 90),oklch(0.75 0.16 75) 55%,oklch(0.58 0.13 65));-webkit-background-clip:text;background-clip:text;color:transparent;}
+.btn-gold{background:linear-gradient(180deg,oklch(0.9 0.13 90),oklch(0.72 0.16 72));color:oklch(0.22 0.08 262);box-shadow:0 6px 0 oklch(0.5 0.12 60),0 12px 24px oklch(0 0 0/0.35);transition:transform .15s,box-shadow .15s;}
+.btn-gold:hover{transform:translateY(2px);box-shadow:0 4px 0 oklch(0.5 0.12 60),0 8px 16px oklch(0 0 0/0.35);}
+.card-3d{background:linear-gradient(160deg,oklch(0.36 0.12 260),oklch(0.24 0.1 262));border:1px solid oklch(0.8 0.15 85/0.35);box-shadow:0 20px 40px oklch(0 0 0/0.45),inset 0 1px 0 oklch(1 0 0/0.15);transition:transform .3s;}
+.card-3d:hover{transform:perspective(800px) rotateX(4deg) rotateY(-4deg) translateY(-6px);}
+.text-on-brand{color:oklch(0.95 0.02 260);}
+.text-on-brand-muted{color:oklch(0.78 0.04 260);}
+@keyframes floaty{50%{transform:translateY(-14px) rotate(-2deg)}}
+.floaty{animation:floaty 5s ease-in-out infinite;filter:drop-shadow(0 30px 30px oklch(0 0 0/0.5));}
